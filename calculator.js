@@ -40,8 +40,8 @@ class Calculator {
         result.push(result_of_mult_or_div[i]);
       } else {
         result.push(this.calculate(result.pop(), result_of_mult_or_div[i], result_of_mult_or_div[++i]));
-        }
       }
+    }
 
     return result[0];
   }
