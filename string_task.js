@@ -11,9 +11,10 @@ function stringTask(s) {
   }, '.').slice(0, -1);
 }
 
+
 // nice solution with regex
-function stringTask(s){
-  return s.toLowerCase().replace(/[aeiouy]/g, '').replace(/./g, v=>'.'+v);
+function stringTask(s) {
+  return s.toLowerCase().replace(/[aeiouy]/g, '').replace(/./g, v => '.' + v);
 }
 
 console.log(stringTask("aBAcAba"));

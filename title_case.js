@@ -1,5 +1,6 @@
 const makeTitle = (word) => word[0].toUpperCase() + word.substring(1).toLowerCase(); 
 
+
 function titleCase(title, minorWords) {
   if (!title)  return '';
   // a place to store the result
