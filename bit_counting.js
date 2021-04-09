@@ -1,6 +1,8 @@
-const countBits = (num) => (num >>> 0).toString(2).split('').filter(x => x == 1).length;
-
-
+const countBits = (num) =>
+  (num >>> 0)
+    .toString(2)
+    .split("")
+    .filter((x) => x == 1).length;
 
 console.log(countBits(0), 0);
 console.log(countBits(4), 1);
